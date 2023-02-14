@@ -1,3 +1,3 @@
-select a.*, true as "test", true as "test 2"
+select a.*, true as "test"
 from tutorial.flights a, tutorial.flights b
 limit 19999
