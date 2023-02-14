@@ -1,4 +1,4 @@
-SELECT *, 1 as "test", 2 as "test 2", 3 as "test 3", 4 as "test 4"
+SELECT *
 FROM benn.nfl_touchdowns a
 FULL OUTER JOIN benn.nfl_touchdowns b on a.touchdown_id = b.touchdown_id
 -- FULL OUTER JOIN benn.nfl_touchdowns c on a.touchdown_id = c.touchdown_id
