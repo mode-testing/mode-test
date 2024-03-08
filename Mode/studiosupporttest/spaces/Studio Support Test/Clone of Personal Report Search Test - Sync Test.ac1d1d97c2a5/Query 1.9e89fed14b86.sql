@@ -1,2 +1,2 @@
 -- Returns first 100 rows from tutorial.accounts
-SELECT * FROM tutorial.flights limit 1000
+SELECT * FROM tutorial.flights limit 100
